@@ -9,3 +9,40 @@
 .c-articles-previews {
 
 }
+.contentSection{
+    padding-top: 30px;
+    max-width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    .item{
+        background-color: white;
+        border-radius: 16px;
+        overflow: hidden;
+        &Top{
+            height: 220px;
+            width: 100%;
+        }
+        &Botton{
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            strong {
+                color: #cd0082;
+            }
+        }
+    }
+}
+.contenButton{
+    margin-top: 30px;
+    text-align: center;
+    #showData{
+        border: 1px solid #cd0082;
+        background-color: white;
+        padding: 8px 16px;
+        border-radius: 15px;
+        color: #cd0082;
+    }
+}
