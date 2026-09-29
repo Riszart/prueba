@@ -1,1 +1,2 @@
-import './articles-previews.js';
+import showCard from  './articles-previews.js';
+showCard()
